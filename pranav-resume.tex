@@ -1,0 +1,108 @@
+%%%%%%
+% Pranav Ravichandran - curriculum vitae
+% Edited using emacs and texlive
+% Uses LaTeX and moderncv
+%%%%%%
+
+\documentclass[10pt,a4paper]{moderncv}
+\usepackage{url}
+\usepackage{footmisc}
+%%\usepackage{lucidabr}
+%% Define a new 'leo' style for the package that will use a smaller font.
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\ttfamily}}}
+\makeatother
+%% Now actually use the newly defined style.
+\urlstyle{leo}
+
+\moderncvtheme[blue]{classic}
+
+\usepackage[utf8]{inputenc} % character encoding
+\usepackage[scale=0.8]{geometry} % adjust the page margins
+
+\AtBeginDocument{\setlength{\maketitlenamewidth}{10cm}}
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Pranav}
+\familyname{Ravichandran}
+\title{Resume.}
+\address{Address Line 1,}{Address Line 2.}
+\phone{911}
+\email{me@onloop.net}
+\homepage{www.onloop.net}
+% \photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file;
+\quote{Application for the role of Software Engineering Foo.}
+% --------------------------------------
+% CONTENT
+% --------------------------------------
+
+\begin{document}
+\maketitle
+
+\section{Technical Skills}
+\cvcomputer
+{\textbf{OS}}{Linux, Windows}
+{\textbf{Languages}}{Python, C, C++, Java, JavaScript}
+\cvcomputer
+{\textbf{Tools}}{Vim, bash, git, hg, xmonad, ack,\\make/cmake, valgrind, Photoshop}
+{\textbf{Web Dev}}{HTML5, CSS, Flask, jQuery}
+\cvcomputer
+{\textbf{Frameworks}}{Qt, Orion, libsndfile, PortAudio}
+{}{}
+
+% --------------------------------------
+% WORK EX
+% --------------------------------------
+
+\section{Work Experience}
+
+\cventry{Apr - Sep 2011}{Google Summer of Code 2011}{Student Contractor}{Google}{}{Integrated SMARTS, a Game Artificial Intelligence Framework into KDE Gluon, and also implemented a KPart Graphical User Interface to plug the SMARTS Editor into Gluon.}
+
+%%\pagebreak
+
+\subsection{Open Source Contributions}
+
+\cventry{Apr - Sep 2011}{KDE Gluon}{}{}{}{Integrated SMARTS AI Library and implemented a KPart GUI.}
+
+\cventry{Jan 2012 onwards}{Mozilla Corporation}{}{}{}{
+\begin{itemize}
+{\item{Developed a Code Commenting/Uncommenting feature for Mozilla Firefox Source Editor.}}
+{\item{Implemented a mechanism to hide unused services from the Firefox Preferences UI.}}
+{Other minor patches.}
+\end{itemize}
+}
+
+\cventry{July 2012}{PySynth}{}{}{}{Created an interactive Command Line Interpreter to parse Musical Notation and render tunes, aiding in on-the-fly notational composition with PySynth, and also implemented support for audio playback.}
+
+% --------------------------------------
+% PROJECTS
+% --------------------------------------
+
+\section{{\href{http://www.github.com/pranavrc/}{Independent Projects}}}
+
+\cventry{}{\href{http://music.onloop.net/}{PDoS}}{}{}{}{Patterned Disruption of Silence - An exercise in extrapolating algorithmic patterns to musical notes, with C, libsndfile and PortAudio.}
+\cventry{}{\href{http://soundcloud.onloop.net/}{SC-irclejerk}}{}{}{}{A Python/jQuery webapp to find out who among a Soundcloud user's followees aren't following them back. Received good response from the spam-hit Soundcloud user community.}
+\cventry{}{Strand}{}{}{}{A minimalist Content Publishing System written in Python.}
+\cventry{}{Interbot}{}{}{}{A bot that establishes an interface to run commands on a remote computer's terminal through IRC.}
+\cventry{}{Markoviser}{}{}{}{Webapp that scrapes movie quotes from the web, parses them and displays markovised balderdash using Flask and AJAX.}
+\cventry{}{lexMap}{}{}{}{Lexical mapper in C that maps keys in target files to values specified in key-value pairs in key files.\\\\Other projects at {\href{http://www.github.com/pranavrc/}{http://www.github.com/pranavrc/}}}
+
+% --------------------------------------
+% Courses
+% --------------------------------------
+%\section{Courses}
+%\cvlistdoubleitem{Database Management Systems}{Operating Systems}
+%\cvlistdoubleitem{Algorithms}{Artificial Intelligence}
+%%\pagebreak
+\section{Education}
+\cventry{Aug 2009 - May 2013}{B.E. Electrical and Electronics.}{Foobar University.}{}{}{Completed 6 out of 8 Semesters (3/4 years) - \textit{CGPA $7.7$/$10.0$}.}
+% --------------------------------------
+% INTERESTS HOBBIES
+% --------------------------------------
+
+% --------------------------------------
+% FOOTNOTES
+% --------------------------------------
+\end{document}
