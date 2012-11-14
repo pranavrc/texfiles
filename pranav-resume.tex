@@ -1,7 +1,6 @@
 %%%%%%
 % Pranav Ravichandran - curriculum vitae
-% Edited using emacs and texlive
-% Uses LaTeX and moderncv
+% Using LaTeX and moderncv
 %%%%%%
 
 \documentclass[10pt,a4paper]{moderncv}
@@ -28,12 +27,12 @@
 \firstname{Pranav}
 \familyname{Ravichandran}
 \title{Resume.}
-\address{Address Line 1,}{Address Line 2.}
-\phone{911}
+\address{Address Line 1,\\Address Line 2,\\Address Line 3,}{4, 5.}
+\phone{9876543210}
 \email{me@onloop.net}
 \homepage{www.onloop.net}
 % \photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file;
-\quote{Application for the role of Software Engineering Foo.}
+\quote{Application for the role of Software Development Engineer.}
 % --------------------------------------
 % CONTENT
 % --------------------------------------
@@ -46,10 +45,11 @@
 {\textbf{OS}}{Linux, Windows}
 {\textbf{Languages}}{Python, C, C++, Java, JavaScript}
 \cvcomputer
-{\textbf{Tools}}{Vim, bash, git, hg, xmonad, ack,\\make/cmake, valgrind, Photoshop}
-{\textbf{Web Dev}}{HTML5, CSS, Flask, jQuery}
+{\textbf{Tools}}{Vim, bash, git,\\make/cmake, valgrind, Photoshop}
+{\textbf{Web Dev}}{HTML5, CSS, AJAX, \\Flask, jQuery}
 \cvcomputer
 {\textbf{Frameworks}}{Qt, Orion, libsndfile, PortAudio}
+{\textbf{Mobile}}{Android}
 {}{}
 
 % --------------------------------------
@@ -62,13 +62,11 @@
 
 %%\pagebreak
 
-\subsection{Open Source Contributions}
-
-\cventry{Apr - Sep 2011}{KDE Gluon}{}{}{}{Integrated SMARTS AI Library and implemented a KPart GUI.}
+\section{Open Source Contributions}
 
 \cventry{Jan 2012 onwards}{Mozilla Corporation}{}{}{}{
 \begin{itemize}
-{\item{Developed a Code Commenting/Uncommenting feature for Mozilla Firefox Source Editor.}}
+{\item{Developed a Code Commenting/Uncommenting feature for the Mozilla Firefox Source Editor.}}
 {\item{Implemented a mechanism to hide unused services from the Firefox Preferences UI.}}
 {Other minor patches.}
 \end{itemize}
@@ -82,12 +80,34 @@
 
 \section{{\href{http://www.github.com/pranavrc/}{Independent Projects}}}
 
-\cventry{}{\href{http://music.onloop.net/}{PDoS}}{}{}{}{Patterned Disruption of Silence - An exercise in extrapolating algorithmic patterns to musical notes, with C, libsndfile and PortAudio.}
-\cventry{}{\href{http://soundcloud.onloop.net/}{SC-irclejerk}}{}{}{}{A Python/jQuery webapp to find out who among a Soundcloud user's followees aren't following them back. Received good response from the spam-hit Soundcloud user community.}
-\cventry{}{Strand}{}{}{}{A minimalist Content Publishing System written in Python.}
-\cventry{}{Interbot}{}{}{}{A bot that establishes an interface to run commands on a remote computer's terminal through IRC.}
-\cventry{}{Markoviser}{}{}{}{Webapp that scrapes movie quotes from the web, parses them and displays markovised balderdash using Flask and AJAX.}
-\cventry{}{lexMap}{}{}{}{Lexical mapper in C that maps keys in target files to values specified in key-value pairs in key files.\\\\Other projects at {\href{http://www.github.com/pranavrc/}{http://www.github.com/pranavrc/}}}
+\cvlistitem
+{\textbf{PDoS} -- {{\href{http://music.onloop.net/}{\small http://music.onloop.net/}}}
+  \\Patterned Disruption of Silence - An exercise in extrapolating algorithmic patterns to musical notes, with C, libsndfile and PortAudio.}
+
+\cvlistitem
+{\textbf{Album.onloop} -- {{\href{http://album.onloop.net/}{\small http://album.onloop.net/}}}
+  \\Music Album search and discovery site, that employs a crawler for Content aggregation, using Python, Flask, jQuery, HTML5, CSS and JSON.}
+
+\cvlistitem
+{\textbf{SC-ircle} -- {{\href{http://soundcloud.onloop.net/}{\small http://soundcloud.onloop.net/}}}
+  \\A Python/jQuery webapp to find out who among a Soundcloud user's followees aren't following them back. Received good response from the spam-hit Soundcloud user community.}
+
+\cvlistitem
+{\textbf{Strand} -- {{\href{http://devlog.onloop.net}{\small http://devlog.onloop.net/}}}
+  \\A minimalist Content Publishing System written in Python, with support for CLI blogging.}
+
+\cvlistitem
+{\textbf{Interbot}
+  \\A bot that establishes an interface over IRC to run commands on a remote computer's terminal.}
+
+\cvlistitem
+{\textbf{Pnoesis}
+  \\Language mapping experiments in C, using regex and lexMap, a self-developed C keymapper.}
+
+\cvlistitem
+{\textbf{Post}
+ \\Android app to send custom HTTP POST requests to a server.\\ - Other projects at {\href{http://github.com/pranavrc}{http://github.com/pranavrc/}}}
+
 
 % --------------------------------------
 % Courses
@@ -97,7 +117,7 @@
 %\cvlistdoubleitem{Algorithms}{Artificial Intelligence}
 %%\pagebreak
 \section{Education}
-\cventry{Aug 2009 - May 2013}{B.E. Electrical and Electronics.}{Foobar University.}{}{}{Completed 6 out of 8 Semesters (3/4 years) - \textit{CGPA $7.7$/$10.0$}.}
+\cventry{Aug 2009 - May 2013}{B.E. Electrical and Electronics.}{Foo University, Foo}{}{}{Completed 6 out of 8 Semesters (3/4 years) - \textit{CGPA $7.2$/$10.0$}.}
 % --------------------------------------
 % INTERESTS HOBBIES
 % --------------------------------------
