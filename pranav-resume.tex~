@@ -27,7 +27,7 @@
 \firstname{Pranav}
 \familyname{Ravichandran}
 %\title{Resume.}
-\address{Address Line 1,\\Address Line 2,}{4, 5.}
+\address{Address Line 1,\\Address Line 2,\\Address Line 3,}{4, 5.}
 \phone{9876543210}
 \email{me@onloop.net}
 \homepage{www.onloop.net}
