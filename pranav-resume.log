@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.4.11)  29 APR 2013 22:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.4.11)  5 MAY 2013 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -802,10 +802,10 @@ public/lm/lmss9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><
 /usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/
 fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/
 lmsso9.pfb></usr/share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on pranav-resume.pdf (1 page, 208835 bytes).
+Output written on pranav-resume.pdf (1 page, 209678 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  20009 words of extra memory for PDF output out of 20736 (max. 10000000)
 
