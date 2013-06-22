@@ -1,39 +1,33 @@
-%%%%%%
+%------------
 % Pranav Ravichandran - curriculum vitae
-% Edited using emacs and texlive
 % Uses LaTeX and moderncv
-%%%%%%
+%------------
 
 \documentclass[10pt,a4paper]{moderncv}
 \usepackage{url}
 \usepackage{footmisc}
-%\usepackage{verdana}
-%% Define a new 'leo' style for the package that will use a smaller font.
-\makeatletter
-\def\url@leostyle{%
-  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\ttfamily}}}
-\makeatother
-%% Now actually use the newly defined style.
-\urlstyle{leo}
 
-\moderncvtheme[blue]{classic}
+\makeatletter
+\usepackage[utf8]{inputenc}
+
+\moderncvtheme[darkred]{classic}
 
 \usepackage[utf8]{inputenc} % character encoding
 \usepackage[scale=0.8]{geometry} % adjust the page margins
 
 \AtBeginDocument{\setlength{\maketitlenamewidth}{10cm}}
-\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+\AtBeginDocument{\recomputelengths} % required when changes are made to page layout lengths
 
 % personal data
 \firstname{Pranav}
 \familyname{Ravichandran}
-%\title{Resume.}
-\address{Somewhere\\in}{India.}
+\nopagenumbers{}
+\address{Chennai, India.}{}
 \phone{9876543210}
 \email{me@onloop.net}
 \homepage{www.onloop.net}
-% \photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file;
-\quote{Objective, changing with the seasons.}
+%\quote{Objective, changing with the seasons.}
+
 % --------------------------------------
 % CONTENT
 % --------------------------------------
@@ -61,8 +55,6 @@
 
 \cventry{Apr - Sep 2011}{{\href{http://www.google-melange.com/gsoc/project/google/gsoc2011/pranavrc/20001}{Google Summer of Code 2011}}}{Student Contractor}{Google}{}{Integrated SMARTS, a Game Artificial Intelligence Framework into KDE Gluon, and also implemented a KPart Graphical User Interface to plug the SMARTS Editor into Gluon.}
 
-%%\pagebreak
-
 \section{Open Source Contributions}
 
 \cventry{Jan 2012 onwards}{{\href{http://hg.mozilla.org/mozilla-central/log?rev=pranav+ravichandran}{Mozilla}}}{}{}{}{
@@ -73,7 +65,7 @@
 \end{itemize}
 }
 
-\cventry{July 2012}{{\href{http://github.com/mdoege/PySynth/commits/master}{PySynth}}}{}{}{}{Created an interactive Command Line Interpreter to parse Musical Notation and render tunes, aiding in on-the-fly notational composition with PySynth, and also implemented support for audio playback.}
+\cventry{July 2012}{{\href{https://github.com/mdoege/PySynth/commits?author=pranavrc}{PySynth}}}{}{}{}{Created an interactive Command Line Interpreter to parse Musical Notation and render tunes, aiding in on-the-fly notational composition with PySynth, and also implemented support for audio playback.}
 
 % --------------------------------------
 % PROJECTS
@@ -90,12 +82,17 @@
   \\An URL-based ASCII Histograms API using Common Lisp, Restas and CL-WHO.}
 
 \cvlistitem
+{\textbf{Suburl} -- {{\href{http://u.onloop.net/}{\small
+http://u.onloop.net/}}}
+  \\A wildcard substitution-based URL Sanitizer/Shortener in Common Lisp.}
+
+\cvlistitem
 {\textbf{Album.onloop} -- {{\href{http://album.onloop.net/}{\small http://album.onloop.net/}}}
-  \\Music Album discovery tool and review aggregator, using Python, Flask, jQuery, HTML5, CSS and JSON.}
+  \\Music Album discovery tool and review aggregator, using Python, Flask and jQuery.}
 
 \cvlistitem
 {\textbf{SC-ircle} -- {{\href{http://soundcloud.onloop.net/}{\small http://soundcloud.onloop.net/}}}
-  \\A Python/jQuery webapp to find out who among a Soundcloud user's followees aren't following them back, well-received by the spam-hit Soundcloud user community.}
+  \\A Python/jQuery webapp to find out who among a Soundcloud user's followees aren't following them back; well-received by the spam-hit Soundcloud user community.}
 
 \cvlistitem
 {\textbf{Strand} -- {{\href{http://devlog.onloop.net/sample}{\small http://devlog.onloop.net/sample}}}
@@ -113,17 +110,8 @@
 % --------------------------------------
 % Courses
 % --------------------------------------
-%\section{Courses}
-%\cvlistdoubleitem{Database Management Systems}{Operating Systems}
-%\cvlistdoubleitem{Algorithms}{Artificial Intelligence}
-%%\pagebreak
-\section{Education}
-\cventry{Aug 2009 - May 2013}{B.E. Electrical and Electronics.}{St.Joseph's College of Engineering, Anna University}{}{}{Completed 8 out of 8 Semesters - \textit{CGPA $7.0$/$10.0$}. (Spring 2013 Graduate)\\{\href{http://github.com/pranavrc/hairyplotter/}{Academic Project - Electrooculogram based Eye-gesture recognition.}}}
-% --------------------------------------
-% INTERESTS HOBBIES
-% --------------------------------------
 
-% --------------------------------------
-% FOOTNOTES
-% --------------------------------------
+\section{Education}
+\cventry{Aug 2009 - May 2013}{B.E. Electrical and Electronics.}{St.Joseph's College of Engineering, Anna University}{}{}{Completed 8 out of 8 Semesters - \textit{CGPA $7.0$/$10.0$}. (Spring 2013 Graduate, awaiting Exam results)\\{\href{http://github.com/pranavrc/hairyplotter/}{Academic Project - Electrooculogram based Eye-gesture recognition.}}}
+
 \end{document}
