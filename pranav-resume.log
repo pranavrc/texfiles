@@ -1,21 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.5.28)  27 JUL 2013 14:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.8.13)  13 AUG 2013 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **pranav-resume.tex
 (./pranav-resume.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
- polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
-lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
-welsh, loaded.
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (./moderncv.cls
 Document Class: moderncv 2010/08/03 v0.12 modern curriculum vitae document clas
 s
@@ -703,22 +693,27 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 37.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--48
+Underfull \hbox (badness 10000) in paragraph at lines 40--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
@@ -728,7 +723,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
@@ -762,41 +757,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 118.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 114.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 118.
+(Font)              <9> on input line 114.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 118.
+(Font)              <6> on input line 114.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (./pranav-resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `pranav-resume.out' has not changed.
 (rerunfilecheck)             Checksum: 3CD9BF54D9B7713557E20AB8B022CA2B;260.
  ) 
 Here is how much of TeX's memory you used:
- 7048 strings out of 493488
- 99752 string characters out of 3146892
- 194150 words of memory out of 3000000
- 10226 multiletter control sequences out of 15000+200000
- 55190 words of font info for 45 fonts, out of 3000000 for 9000
+ 7047 strings out of 493315
+ 99748 string characters out of 6143704
+ 197769 words of memory out of 5000000
+ 10370 multiletter control sequences out of 15000+600000
+ 55190 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 32i,11n,45p,795b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,11n,45p,795b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dis
 t/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.
 enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf-di
@@ -807,10 +797,10 @@ public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss9.pfb></u
 sr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/f
 onts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/l
 msso9.pfb></usr/share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on pranav-resume.pdf (1 page, 207226 bytes).
+Output written on pranav-resume.pdf (1 page, 206445 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
