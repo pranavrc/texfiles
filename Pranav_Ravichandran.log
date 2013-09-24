@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.8.13)  23 SEP 2013 20:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.8.13)  24 SEP 2013 20:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -659,6 +659,12 @@ Type  H <return>  for immediate help.
                                                   
 l.35 \maketitle
                
+? gi
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
 ? 
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
@@ -798,7 +804,7 @@ public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss9.pfb></u
 sr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/f
 onts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/l
 msso9.pfb></usr/share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Pranav_Ravichandran.pdf (1 page, 206625 bytes).
+Output written on Pranav_Ravichandran.pdf (1 page, 206624 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
