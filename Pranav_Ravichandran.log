@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.10.4)  7 OCT 2013 23:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.10.4)  13 DEC 2013 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,15 +591,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(58.55551pt, 480.39684pt, 58.55553pt)
-* v-part:(T,H,B)=(66.25137pt, 679.41838pt, 99.37709pt)
+* h-part:(L,W,R)=(53.77351pt, 489.96083pt, 53.77353pt)
+* v-part:(T,H,B)=(60.84088pt, 692.9446pt, 91.26137pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=480.39684pt
-* \textheight=679.41838pt
-* \oddsidemargin=-13.71448pt
-* \evensidemargin=-13.71448pt
-* \topmargin=-43.01862pt
+* \textwidth=489.96083pt
+* \textheight=692.9446pt
+* \oddsidemargin=-18.49648pt
+* \evensidemargin=-18.49648pt
+* \topmargin=-48.42911pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -764,26 +764,26 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 114.
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
 
 (./Pranav_Ravichandran.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 116.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `Pranav_Ravichandran.out' has not changed.
 (rerunfilecheck)             Checksum: 3CD9BF54D9B7713557E20AB8B022CA2B;260.
  ) 
 Here is how much of TeX's memory you used:
  7047 strings out of 493311
  99826 string characters out of 6143650
- 197817 words of memory out of 5000000
+ 197813 words of memory out of 5000000
  10374 multiletter control sequences out of 15000+600000
  55190 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -798,7 +798,7 @@ public/lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss9.pfb></u
 sr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/f
 onts/type1/public/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/l
 msso9.pfb></usr/share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on Pranav_Ravichandran.pdf (1 page, 206601 bytes).
+Output written on Pranav_Ravichandran.pdf (1 page, 206800 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream

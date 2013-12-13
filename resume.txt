@@ -1,0 +1,62 @@
+Pranav Ravichandran.
+Chennai, India.
+me@onloop.net
+www.onloop.net
+
+----
+
+Technical Skills:-
+
+ Languages - Python, Common Lisp, C, Java, JavaScript
+ Environment - Unix, Emacs, bash, git, make/cmake, valgrind, nginx
+ The Web - HTML, CSS, Flask, jQuery
+ Mobile - Android
+
+----
+
+Work Experience:-
+ Apr - Sep 2011, Google Summer of Code 2011, Student Contractor, Google.
+ Integrated SMARTS, a Game Artificial Intelligence Framework into KDE Gluon, and also implemented a KPart Graphical User Interface to plug the SMARTS Editor into Gluon.
+
+----
+
+Open Source Contributions:-
+ Jan 2012 onwards, Mozilla.
+ { Developed a Code Commenting/Uncommenting feature for the Mozilla Firefox Source Editor.
+ { Implemented a mechanism to hide unused services from the Firefox Preferences UI. Other patches.
+ July 2012, PySynth.
+ Created an interactive Command Line Interpreter to parse Musical Notation and render tunes, aiding in
+ on-the-fly notational composition with PySynth, and also implemented support for audio playback.
+
+----
+
+Independent Projects:-
+ { Transit.js – http://onloop.net/transit/
+ A JavaScript library to create purely client-side, interactive transit maps. The Chennai Suburban
+ Rail map was created using transit.js.
+ { Suburl – http://u.onloop.net/
+ A wildcard substitution-based URL Sanitizer/Shortener in Common Lisp.
+ { This.onloop – http://this.onloop.net/
+ Music Search and Album discovery tool, with Common Lisp and Restas.
+ { SC-ircle – http://soundcloud.onloop.net/
+ A Python/jQuery webapp to find out who among a Soundcloud user’s followees aren’t following
+ them back; well-received by the spam-hit Soundcloud user community.
+ { QuickHist – http://quickhist.onloop.net/
+ An URL-based ASCII Histograms API using Common Lisp, Restas and CL-WHO.
+ { PDoS – http://music.onloop.net/
+ Patterned Disruption of Silence - An exercise in extrapolating algorithmic patterns to musical
+ notes, with C, libsndfile and PortAudio.
+ { Strand – http://devlog.onloop.net/sample
+ A minimal Content Publishing System written in Python, with support for CLI blogging.
+ { Howstat – http://redd.it/1i7lh3
+ A player-statistics lookup bot for Reddit’s Cricket community, /r/Cricket.
+ { Post
+ Android app to send custom HTTP requests to a server.
+ Github: github.com/pranavrc
+
+----
+
+Education:-
+ 2009 - 2013, B.E. Electrical and Electronics., St.Joseph’s College of Engineering, Anna University.
+ Completed 8 out of 8 Semesters - CGPA 7.4/10.0. (Fall 2013 graduate)
+ Thesis: Electrooculogram based Eye-gesture recognition - http://onloop.net/hairyplotter
