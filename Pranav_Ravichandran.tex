@@ -3,32 +3,30 @@
 % Uses LaTeX and moderncv
 %------------
 
+%Setup
 \documentclass[10pt,a4paper]{moderncv}
 \usepackage{url}
 \usepackage{footmisc}
-
 \makeatletter
 \usepackage[utf8]{inputenc}
-
 \moderncvtheme[darkred]{classic}
-
 \usepackage[utf8]{inputenc} % character encoding
 \usepackage[scale=0.820]{geometry} % adjust the page margins
-
 \AtBeginDocument{\setlength{\maketitlenamewidth}{10cm}}
 \AtBeginDocument{\recomputelengths} % required when changes are made to page layout lengths
 
-% personal data
+%Personal details.
 \firstname{Pranav}
 \familyname{Ravichandran}
 \nopagenumbers{}
 \address{Chennai, India.}{}
 \email{me@onloop.net}
 \homepage{www.onloop.net}
-%\quote{Objective, changing with the seasons.}
+
 % --------------------------------------
 % CONTENT
 % --------------------------------------
+
 \begin{document}
 \maketitle
 \section{Technical Skills}
@@ -36,7 +34,7 @@
 {\textbf{Languages}}{Python, Common Lisp, C, \\Java, JavaScript}
 {\textbf{Environment}}{Unix, Emacs, bash, git, \\make/cmake, valgrind, nginx}
 \cvcomputer
-{\textbf{The Web}}{HTML, CSS, Flask, jQuery}
+{\textbf{The Web}}{HTML, CSS, Django, jQuery}
 {\textbf{Mobile}}{Android}
 
 % --------------------------------------
@@ -47,6 +45,17 @@
 
 \cventry{Apr - Sep 2011}{{\href{http://www.google-melange.com/gsoc/project/google/gsoc2011/pranavrc/20001}{Google Summer of Code 2011}}}{Student Contractor}{Google}{}{Integrated SMARTS, a Game Artificial Intelligence Framework into KDE Gluon, and also implemented a KPart Graphical User Interface to plug the SMARTS Editor into Gluon.}
 
+\cventry{Jan 2014 onwards}{{\href{http://tenmiles.com}{Tenmiles}}}{Software Developer}{at {\href{https://happyfox.com}{core, Happyfox Inc}}}{}{}
+
+% --------------------------------------
+% Courses
+% --------------------------------------
+
+\section{Education}
+
+\cventry{2009 - 2013}{B.E. Electrical and Electronics}{St.Joseph's College of Engineering, Anna University}{}{}{\textit{CGPA $7.4$/$10.0$}. (Fall 2013 graduate)}
+\cventry{2013}{Thesis}{{\href{http://onloop.net/hairyplotter}{\small http://onloop.net/hairyplotter}}}{}{}{Human-Computer Interface with Electrooculogram-based eye gesture detection and classification.}
+
 \section{Open Source Contributions}
 
 \cventry{Jan 2012 onwards}{{\href{https://bugzilla.mozilla.org/user\%5Fprofile?user\%5Fid=431664}{Mozilla}}}{}{}{}{
@@ -54,8 +63,7 @@
 {\item{Developed a Code Commenting/Uncommenting feature for the Mozilla Firefox Source Editor.}}
 {\item{Implemented W3C spec restrictions on WebIDL dictionary member types, among other patches.}}
 {}
-\end{itemize}
-}
+\end{itemize}}
 
 \cventry{July 2012}{{\href{https://github.com/mdoege/PySynth/commits?author=pranavrc}{PySynth}}}{}{}{}{Created an interactive Command Line Interpreter to parse Musical Notation and render tunes, aiding in on-the-fly notational composition with PySynth, and also implemented support for audio playback.}
 
@@ -65,50 +73,19 @@
 
 \section{{\href{http://github.com/pranavrc/}{Independent Projects}}}
 
-\cvlistitem
-{\textbf{Transit.js} -- {{\href{http://onloop.net/transit}{\small http://onloop.net/transit/}}}
-  \\A JavaScript library to create purely client-side, interactive transit maps. The {{\href{http://onloop.net/chennairail}{Chennai Suburban Rail map}}} was created using transit.js.}
+\cventry{}{Transit.js}{{\href{http://onloop.net/transit}{\small http://onloop.net/transit}}}{}{}{A JavaScript library to create purely client-side, interactive transit maps. The {{\href{http://onloop.net/chennairail}{Chennai Suburban Rail map}}} was created using transit.js}
 
-\cvlistitem
-{\textbf{Suburl} -- {{\href{http://u.onloop.net/}{\small
-http://u.onloop.net/}}}
-  \\A wildcard substitution-based URL Sanitizer/Shortener in Common Lisp.}
+\cventry{}{Suburl}{{\href{http://u.onloop.net}{\small http://u.onloop.net/}}}{}{}{A wildcard substitution-based URL Sanitizer/Shortener in Common Lisp.}
 
-\cvlistitem
-{\textbf{This.onloop} -- {{\href{http://this.onloop.net/}{\small http://this.onloop.net/}}}
-  \\Music Search and Album discovery tool, with Common Lisp and Restas.}
+\cventry{}{This.onloop}{{\href{http://this.onloop.net}{\small http://this.onloop.net}}}{}{}{Music Search and Album discovery tool, with Common Lisp and Restas.}
 
-\cvlistitem
-{\textbf{SC-ircle} -- {{\href{http://soundcloud.onloop.net/}{\small http://soundcloud.onloop.net/}}}
-  \\A Python/jQuery webapp to find out who among a Soundcloud user's followees aren't following them back; well-received by the spam-hit Soundcloud user community.}
+\cventry{}{SC-ircle}{{\href{http://soundcloud.onloop.net}{\small http://soundcloud.onloop.net}}}{}{}{A Python/jQuery webapp to find out who among a Soundcloud user's followees aren't following them back; well-received by the spam-hit Soundcloud user community.}
 
-\cvlistitem
-{\textbf{QuickHist} -- {{\href{http://quickhist.onloop.net/}{\small http://quickhist.onloop.net/}}}
-  \\An URL-based ASCII Histograms API using Common Lisp, Restas and CL-WHO.}
+\cventry{}{QuickHist}{{\href{http://quickhist.onloop.net}{\small http://quickhist.onloop.net}}}{}{}{An URL-based ASCII Histograms API using Common Lisp, Restas and CL-WHO.}
 
-\cvlistitem
-{\textbf{PDoS} -- {{\href{http://music.onloop.net/}{\small http://music.onloop.net/}}}
-  \\Patterned Disruption of Silence - An exercise in extrapolating algorithmic patterns to musical notes, with C, libsndfile and PortAudio.}
+\cventry{}{Howstat}{{\href{http://redd.it/1i7lh3}{\small http://redd.it/1i7lh3}}}{}{}{Resident player-statistics lookup bot for Reddit's Cricket Community, {{\href http://reddit.com/r/cricket}{/r/Cricket}}.}
 
-\cvlistitem
-{\textbf{Strand} -- {{\href{http://devlog.onloop.net/sample}{\small http://devlog.onloop.net/sample}}}
-  \\A minimal Content Publishing System written in Python, with support for CLI blogging.}
+\cventry{}{PDoS}{{\href{http://music.onloop.net}{\small http://music.onloop.net}}}{}{}{Patterned Disruption of Silence - An exercise in extrapolating algorithmic patterns to musical notes.}
 
-\cvlistitem
-{\textbf{Howstat} -- {{\href{http://redd.it/1i7lh3}{\small http://redd.it/1i7lh3}}}
-  \\A player-statistics lookup bot for Reddit's Cricket community, /r/Cricket.}
-
-\cvlistitem
-{\textbf{Post}
- \\Android app to send custom HTTP requests to a server.\\\\{\href{http://github.com/pranavrc}{\textbf{Github:} github.com/pranavrc}}}
-
-
-% --------------------------------------
-% Courses
-% --------------------------------------
-
-\section{Education}
-\cventry{2009 - 2013}{B.E. Electrical and Electronics.}{St.Joseph's College of Engineering, Anna University}{}{}{Completed 8 out of 8 Semesters - \textit{CGPA $7.4$/$10.0$}. (Fall 2013 graduate)}
-\cvitem{Thesis}{Electrooculogram based Eye-gesture recognition and classification - {\href{http://onloop.net/hairyplotter}{\small http://onloop.net/hairyplotter}}}
-
+\cvitem{\textbf{Github}}{{\href{http://github.com/pranavrc}{\small github.com/pranavrc}}}
 \end{document}
